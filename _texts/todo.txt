@@ -1,0 +1,7 @@
+install prisma with sqlite
+create db schema 
+create first migration
+see the impact
+run the migration
+
+---
