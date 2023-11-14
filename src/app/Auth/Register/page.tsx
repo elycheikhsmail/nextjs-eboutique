@@ -1,11 +1,11 @@
 "use client";
 import PageTitle from "../../../Components/pageTitle";
-import Registercompo from "../../../Components/Registercompo";
+import RegisterCompo from "../../../Components/register-compo";
 export default function page() {
   return (
     <>
       <PageTitle title="Register" />
-      <Registercompo />
+      <RegisterCompo />
     </>
   );
 }

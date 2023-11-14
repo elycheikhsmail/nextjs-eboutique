@@ -1,4 +1,4 @@
-import LoginCompo from "@/Components/LoginCompo";
+import LoginCompo from "@/Components/login-compo";
 import PageTitle from "../../../Components/pageTitle";
 
 export default function page() {

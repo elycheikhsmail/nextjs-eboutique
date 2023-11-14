@@ -1,3 +1,0 @@
-npm i json-server-auth -D
-
-npm i json-server -D

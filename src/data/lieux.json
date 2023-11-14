@@ -1,0 +1,88 @@
+{
+    "Wilayas": {
+        "Adrar": [
+            "Atar",
+            "Choum", 
+            "Tichit"
+        ],
+        "Assaba": [
+            "Boumdeid",
+            "Guerou",
+            "Kiffa",
+            "Maghama",
+            "M'Bout",
+            "Magta-Lahjar"
+        ],
+        "Brakna": [
+            "Aleg",
+            "Bababe",
+            "Boghe",
+            "M'Bagne",
+            "Boutilimit",
+            "Tamchekett"
+        ],
+        "Dakhlet Nouadhibou": [
+            "Nouadhibou",
+            "Bir Moghrein",
+            "Rosso"
+        ],
+        "Gorgol": [
+            "Kaédi",
+            "M'Bout",
+            "Maghama",
+            "Monguel",
+            "Magta-Lahjar",
+            "Bababe",
+            "Boghe",
+            "Aleg"
+        ],
+        "Guidimaka": [
+            "Sélibaby",
+            "Ould Yengé",
+            "Ghabou",
+            "Maghama",
+            "Affolé",
+            "Ghabou"
+        ],
+        "Hodh Ech Chargui": [
+            "Néma",
+            "Abeïbara",
+            "Amourj",
+            "Bassiknou",
+            "Timbedra"
+        ],
+        "Hodh El Gharbi": [
+            "Aioun El Atrouss",
+            "Kobenni",
+            "Tintane",
+            "Ould Yenge",
+            "Aïn Ehel Taya"
+        ],
+        "Inchiri": [
+            "Akjoujt"
+        ],
+        "Nouakchott": [
+            "Nouakchott-Ouest",
+            "Nouakchott-Nord",
+            "Nouakchott-Sud"
+        ],
+        "Tagant": [
+            "Tidjikdja",
+            "Moudjéria",
+            "Oudey Tey"
+        ],
+        "Tiris Zemmour": [
+            "F'Dérik",
+            "Bir Moghrein",
+            "Zouérat"
+        ],
+        "Trarza": [
+            "Rosso",
+            "Boutilimit",
+            "M'Bagne",
+            "Boghé",
+            "Kaédi",
+            "Maghama"
+        ]
+    }
+}

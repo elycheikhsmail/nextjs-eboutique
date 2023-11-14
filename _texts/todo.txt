@@ -1,7 +1,29 @@
-install prisma with sqlite
-create db schema 
-create first migration
-see the impact
-run the migration
+crud article louer
+ 
+un script pour initialiser: categories, lieux
 
----
+
+formualaire d'envoi
+de point de vue ui
+options select categories
+options wilaya
+options moughata 
+
+les options doit etre en dure dans le code
+
+
+
+lire la des articles
+
+add article 80% ok
+le remplissage du formulaire sur plusieur etape (eventuellement)
+subcategorie select menu
+
+validate incoming data
+
+affiner la securite plus tard
+puis on creer un tableau user_session
+
+
+affiner UX
+ 

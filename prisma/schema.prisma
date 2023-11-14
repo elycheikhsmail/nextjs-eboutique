@@ -1,0 +1,77 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// datasource db {
+//   provider = "sqlite"
+//   url      = "file:./dev.db"
+// }
+
+datasource db {
+
+  provider = "mysql"
+
+  url      = env("DATABASE_URL")
+
+}
+
+model User {
+  id Int @id @default(autoincrement())
+
+  email String @unique
+
+  password String
+
+  articles Article[]
+}
+
+model categorie{
+  id          Int    @id @default(autoincrement())
+  name String
+}
+
+model Wilaya{
+  id          Int    @id @default(autoincrement())
+  name String
+}
+model Moughataa{
+  id          Int    @id @default(autoincrement())
+  name String
+  wilayaId Int
+}
+
+model Article {
+  id          Int    @id @default(autoincrement())
+  categorieId Int
+  //categorie   String // vente/achatldemade  
+
+  MoughataaId Int
+  //lieu   String // teyaret trarza
+  //description: string;
+  prix   Int
+
+  description           String
+  // meuble ou non ?
+  isMeuble              Boolean @default(false)
+  // nombre des chambre
+  rooms                 Int
+  // disponibilite d'eau
+  haveWater             Boolean @default(false)
+  waterComment          String
+  // disponibilite d'electricite
+  haveElectricity       Boolean @default(false)
+  electricityCommentent String
+  // surface de la maison optionnel
+  surface Int
+  // images
+  // location ou se trouve coordonne google map
+
+  published Boolean @default(false)
+
+  author User @relation(fields: [authorId], references: [id])
+
+  authorId Int
+}

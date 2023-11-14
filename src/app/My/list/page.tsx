@@ -1,5 +1,5 @@
-import MyArticleItem from "../../../Components/MyArticleItem";
-import PageTitle from "../../../Components/pageTitle";
+import MyArticleItem from "@/Components/my-article-item";
+import PageTitle from "@/Components/pageTitle";
 import Link from "next/link";
 
 export default function page() {
@@ -8,7 +8,7 @@ export default function page() {
       <PageTitle title="list" />
       <div className="container mx-auto grid gap-5 grid-cols-fluid pt-5">
         <Link
-          href="/My/add"
+          href="/my/add"
           className="bg-white flex items-center flex-col rounded-lg justify-between"
         >
           <svg

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import { IArticleInput, IUserLogin } from "../../types/interfaces";
-import { axiosConf, GuardedRoutes } from "../../config/axios-config";
+import { IArticleInput, IUserLogin } from "../types/interfaces";
+import { axiosConf, GuardedRoutes } from "../config/axios-config";
 
 export default function Addcompo() {
   /* const [formData, setFormData] = useState<IArticleInput>(

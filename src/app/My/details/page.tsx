@@ -59,7 +59,7 @@ export default function page() {
           update
         </button>
         <button className="mt-4 bg-secondary text-white font-semibold py-2 px-4 rounded-lg">
-          <Link href="/My/list">
+          <Link href="/my/list">
             retirer
           </Link>
         </button>

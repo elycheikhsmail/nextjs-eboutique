@@ -1,10 +1,17 @@
-import ArticleItem from "../Components/ArticleItem";
-import PageTitle from "../Components/pageTitle";
+
+
+import ArticleItem from "@/Components/article-item";
+import PageTitle from "@/Components/pageTitle"; 
+import { NavBar } from "@/app/nav-bar";
+
 
 export default function page() {
+  
   return (
     <>
-      <PageTitle title="home" />
+     { NavBar() }
+        <section> 
+        <PageTitle title="home" />
       <div className="container mx-auto grid gap-5 grid-cols-fluid pt-5">
         <ArticleItem />
         <ArticleItem />
@@ -18,6 +25,8 @@ export default function page() {
         <ArticleItem />
         <ArticleItem />
       </div>
-    </>
+
+        </section>
+          </>
   );
 }
